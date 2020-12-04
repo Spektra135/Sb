@@ -1,0 +1,53 @@
+.advantages {
+  flex: 0 0 100%;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.advantages-item {
+  flex: 0 0 calc(25% - 12px);
+  margin-bottom: 24px;
+  padding: 120px 50px 40px 45px;
+  line-height: 2;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: auto 60px;
+  background-position: 45px 45px;
+  border-radius: 10px;
+}
+
+.bathtub {
+  background-image: url(../image/svg/bathtub.svg);
+}
+
+.hanger {
+  background-image: url(../image/svg/hanger.svg);
+}
+
+.heating {
+  background-image: url(../image/svg/heating.svg);
+}
+
+.hotel-key {
+  background-image: url(../image/svg/hotel-key.svg);
+}
+
+.parking {
+  background-image: url(../image/svg/parking.svg);
+}
+
+.reception {
+  background-image: url(../image/svg/reception.svg);
+}
+
+.security-box {
+  background-image: url(../image/svg/security-box.svg);
+}
+
+.swimming-pool {
+  background-image: url(../image/svg/swimming-pool.svg);
+}

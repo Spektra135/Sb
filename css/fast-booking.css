@@ -1,0 +1,40 @@
+.fast-booking {
+  flex: 0 0 calc(50% - 27px);
+}
+
+.form-booking {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.form-booking-input {
+  margin-bottom: 24px;
+  min-height: 70px;
+  padding-left: 21px;
+  border-radius: 10px;
+}
+
+.form-booking-button {
+  margin-right: 30px;
+  padding: 27px 30px;
+  font-size: 16px;
+  line-height: 1;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  background-color: #cc9933;
+  cursor: pointer;
+}
+.form-booking-color-numeral {
+  color: #cc9933;
+}
+
+.form-booking-text {
+  color: #a5a5a5;
+}
+
+
+
+
+

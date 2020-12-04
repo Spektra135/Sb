@@ -1,0 +1,76 @@
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-top-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  margin-right: 25px;
+}
+
+.logo-img {
+  border-radius: 10px;
+}
+
+.logo-tel {
+  margin-right: 540px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #666666;
+}
+
+.account {
+  padding-left: 25px;
+  color: #cc9933;
+  background-image: url(../image/svg/keyboard_tab.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+
+.wrapper-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27px 40px 27px 20px;
+  margin-bottom: 70px;
+  font-weight: 500;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.nav {
+  display: flex;
+  flex: 0 1 600px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-search-input {
+  width: 300px;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.button-search {
+  width: 22px;
+  height: 22px;
+  border:  none;
+  padding: 5px;
+  background-image: url(../image/search.png);
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+

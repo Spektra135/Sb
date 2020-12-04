@@ -1,0 +1,11 @@
+.about-us {
+  flex: 0 0 100%;
+  margin-bottom: 65px;
+}
+
+.about-us-text {
+  padding-left: 45px;
+  max-width: 920ыpx;
+  color: #666666;
+  line-height: 2;
+}
