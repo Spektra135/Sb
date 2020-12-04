@@ -26,12 +26,17 @@
   padding-left: 44px;
 }
 
+.accommodation-item-desc-grey {
+  color: #999999;;
+}
+
 .accomondation-item-name {
   font-size: 16px;
   font-weight: 500;
 }
 
 .accomondation-item-location {
+  margin-bottom: 20px;
   color: #999999;
 }
 
