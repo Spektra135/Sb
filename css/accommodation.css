@@ -1,5 +1,6 @@
 .accommodation {
   flex: 0 0 100%;
+  margin-bottom: 70px;
 }
 
 
@@ -20,7 +21,6 @@
 .accommodation-item-image {
   border-radius: 10px 10px 0 0;
 }
-
 
 .accomondation-item-wrapper {
   padding-left: 44px;
@@ -63,8 +63,9 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  padding-top: 52px;
   padding-bottom: 52px;
-  background-image: url(../image/all-variant.jpg);
+    background-image: url(../image/all-variant.jpg);
 }
 
 .accommodation-link-all {

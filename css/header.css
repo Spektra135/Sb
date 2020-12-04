@@ -26,8 +26,9 @@
 }
 
 .account {
-  padding-left: 25px;
+  padding-left: 30px;
   color: #cc9933;
+  line-height: 1.5;
   background-image: url(../image/svg/keyboard_tab.svg);
   background-repeat: no-repeat;
   background-position: left;
@@ -71,6 +72,7 @@
   background-image: url(../image/search.png);
   background-repeat: no-repeat;
   background-color: #ffffff;
+  cursor: pointer;
 }
 
 
