@@ -2,20 +2,20 @@
   flex: 0 0 calc(50% - 27px);
 }
 
-.form-booking {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 70px;
-}
+.booking-form {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 70px;
+ }
 
-.form-booking-input {
+.booking-form-input {
   margin-bottom: 24px;
   padding-left: 21px;
   min-height: 70px;
   border-radius: 10px;
 }
 
-.form-booking-button {
+.booking-form-button {
   margin-right: 30px;
   padding: 27px 30px;
   font-size: 16px;
@@ -26,11 +26,12 @@
   background-color: #cc9933;
   cursor: pointer;
 }
-.form-booking-color-numeral {
+
+.booking-form-color-numeral {
   color: #cc9933;
 }
 
-.form-booking-text {
+.booking-form-text {
   color: #a5a5a5;
 }
 

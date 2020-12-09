@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/advantages.css">
     <link rel="stylesheet" href="css/accommodation.css">
+    <link rel="stylesheet" href="css/contacts.css">
     <link rel="stylesheet" href="css/footer.css">
     <title>Lagoona</title>
   </head>
@@ -77,34 +78,34 @@
       <div class="container">
         <div class="wrapper-main">
           <section class="fast-booking">
-            <h2 class="section-caption">Быстрая бронь</h2>
+          <h2 class="section-caption">Быстрая бронь</h2>
 
-            <form class="form-booking">
-              <input class="input form-booking-input" type="text" placeholder="Город">
+          <form class="booking-form">
+            <input class="input booking-form-input" type="text" placeholder="Город">
 
-              <input class="input form-booking-input" type="text"  placeholder="Категория номера">
+            <input class="input booking-form-input" type="text" placeholder="Категория номера">
 
-              <input class="input form-booking-input" type="date"> <!--На макете стоит placeholder="Дата заселения", но input type="date" не предусматривает placeholder, поэтому не ставлю-->
+            <input class="input booking-form-input" type="date"> <!--На макете стоит placeholder="Дата заселения", но input type="date" не предусматривает placeholder, поэтому не ставлю-->
 
-              <input class="input form-booking-input" type="number"  placeholder="Количество ночей">
+            <input class="input booking-form-input" type="number" placeholder="Количество ночей">
 
-              <input class="input form-booking-input" type="number"  placeholder="Количество гостей">
+            <input class="input booking-form-input" type="number" placeholder="Количество гостей">
 
-              <div>
-                <button class="input form-booking-button" type="submit">Найти номер</button>
+            <div>
+              <button class="input booking-form-button" type="submit">Найти номер</button>
 
-                <span class="form-booking-color-numeral">9 756</span>
+              <span class="booking-form-color-numeral">9 756</span>
 
-                <span class="form-booking-text">предложений доступно</span>
-              </div>
-            </form>
-          </section>
+              <span class="booking-form-text">предложений доступно</span>
+            </div>
+          </form>
+        </section>
 
           <section class="special-offer">
             <h2 class="section-caption">Спецпредложение</h2>
 
             <article class="lux">
-              <h3 class="caption-lux">Номера категории люкс</h3>
+              <h3 class="lux-caption">Номера категории люкс</h3>
 
               <div class="lux-content">
                 <span class="lux-text">От 5 000 р.</span>
@@ -422,10 +423,103 @@
               </li>
             </ul>
           </section>
+
+          <section class="contacts">
+            <h2 class="section-caption">Контакты</h2>
+
+            <div class="contacts-wrapper">
+              <article class="contacts-article">
+                <h3 class="visually-hidden">Наши контакты</h3>
+
+                <dl class="contacts-item">
+                  <dt class="contacts-item-name">Адрес</dt>
+                  <dd class="contacts-item-details">Москва, улица Юности, дом 5 строение 4, офис 2</dd>
+                </dl>
+
+                <dl class="contacts-item">
+                  <dt class="contacts-item-name">Телефоны</dt>
+                  <dd class="contacts-item-details">
+                    <span class="contacts-item-details-tel">+7 (499) 535-64-34</span>
+
+                    <span class="contacts-item-details-tel">+7 (495) 005-05-44</span>
+                  </dd>
+                </dl>
+
+                <dl class="contacts-item">
+                  <dt class="contacts-item-name">E-mail</dt>
+                  <dd class="contacts-item-details">
+                  <span class="contacts-item-details-mail">
+                    <span class="contacts-item-details-mail-color">lg.oona@mail.ru</span> по вопросам бронирования
+                  </span>
+                    <span class="contacts-item-details-mail">
+                    <span class="contacts-item-details-mail-color">hotels.ln@mail.ru</span> по вопросам сотрудничества
+                  </span>
+                  </dd>
+                </dl>
+
+                <dl class="contacts-item ">
+                  <dt class="contacts-item-name">График</dt>
+                  <dd class="contacts-item-details">
+                    <span>Понедельник - пятница,</span><span>с 10:0 до 19:00</span>
+                  </dd>
+                </dl>
+
+                <a class="contacts-route-link" href="#">Постороить маршрут</a>
+              </article>
+
+              <article class="feedback-article">
+                <h3 class="feedback-caption">Остались вопросы?</h3>
+
+                <form class="feedback-form" action=" https://jsonplaceholder.typicode.com/posts" method="post" target="_blank">
+                  <input required class="feedback-form-name" type="text" name="name" placeholder="Имя" value="">
+
+                  <input required class="feedback-form-tel" type="tel" name="tel" placeholder="+7" value="">
+
+                  <textarea class="feedback-form-message" name="message" placeholder="Сообщение..."></textarea>
+
+                  <p class="feedback-form-text">Отправляя свои данные вы соглашаетесь с <a class="feedback-form-link" href="#">Политикой конфиденциальности</a></p>
+
+                  <button class="feedback-button" type="submit">Отправить</button>
+                </form>
+              </article>
+            </div>
+          </section>
         </div>
       </div>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <div class="container footer-wrapper">
+        <div class="footer-copyright-agreement">
+          <p class="footer-copyright-agreement-text">© 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс»</p>
+
+          <p class="footer-copyright-agreement-text">Представленная на сайте информация носит справочный характер и не является публичной офертой</p>
+
+          <a class="footer-copyright-agreement-link" href="#">Пользовательское соглашение</a>
+        </div>
+
+        <div class="footer-contacts">
+          <p class="footer-contacts-text">11710, улица Юности, дом 5 строение 4, офис 2</p>
+
+          <p class="footer-contacts-link">
+            <a class="footer-contacts-tel" href="tel:+74995356434">+7 (499) 535-64-34</a>
+            <a class="footer-contacts-tel" href="tel:+74950050544">+7 (495) 005-05-44</a>
+          </p>
+
+          <p class="footer-contacts-link">
+            <a class="footer-contacts-mail" href="mailto:lg.oona@mail.ru" target="_blank">lg.oona@mail.ru</a>
+            <a class="footer-contacts-mail" href="mailto:hotels.ln@mail.ru" target="_blank">hotels.ln@mail.ru</a>
+          </p>
+        </div>
+
+        <div class="footer-social">
+          <a class="footer-social-icon tripadvisor" href="#" aria-label="Перейти на TripAdvisor"></a>
+          <a class="footer-social-icon twitter" href="#" aria-label="Перейти d Twitter"></a>
+          <a class="footer-social-icon facebook" href="#" aria-label="Перейти на facebook"></a>
+          <a class="footer-social-icon vk" href="#" aria-label="Перейти во ВКонтакте"></a>
+          <a class="footer-social-icon google-plus" href="#" aria-label="Перейти на Google+"></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

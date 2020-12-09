@@ -1,0 +1,149 @@
+.contacts {
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+}
+
+.contacts-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+
+.contacts-article {
+  flex: 0 0 calc(50% - 10px);
+  max-width: 430px;
+  padding-top: 25px;
+  padding-left: 45px;
+}
+
+.feedback-article {
+  flex: 0 0 calc(50% - 10px);
+  min-width: 675px;
+  padding-top: 50px;
+}
+
+.feedback-form-message {
+  width: 100%;
+}
+
+.contacts-item  {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 24px;
+  border-bottom: #999999 solid 1px;
+}
+
+.contacts-item-name {
+  flex: 0 0 30%;
+  width: 185px;
+  color: #666666;
+  text-align: left;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.contacts-item-details {
+  display: flex;
+  flex-direction: column;
+  color: #333333;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+
+
+.contacts-item-details-tel {
+  display: block;
+  color: #cc9933;
+  line-height: 1.5;
+}
+
+.contacts-item-details-mail {
+  color: #999999;
+}
+
+.contacts-item-details-mail-color {
+  color: #cc9933;
+}
+
+.contacts-route-link {
+  display: inline-block;
+  padding: 27px 30px;
+  margin-bottom: 45px;
+  font-size: 16px;
+  color: #cc9933;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  border: 1px solid #cc9933;
+  border-radius: 10px;
+}
+
+.contacts-item:nth-child(5) {
+  margin-bottom: 45px;
+}
+
+.feedback-article {
+  padding-top: 45px;
+  padding-right: 44px;
+}
+
+.feedback-caption {
+  margin-bottom: 25px;
+  font-size: 40px;
+  color: #333333;
+  font-weight: 400;
+}
+
+.feedback-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+
+.feedback-form-name, .feedback-form-tel {
+  flex: 0 0 calc(50% - 10px);
+  /*width: calc(50% - 10px);*/
+  min-height: 70px;
+  margin-bottom: 25px;
+  padding-left: 21px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.feedback-form-message {
+  flex: 0 0 100%;
+  margin-bottom: 30px;
+  min-height: 220px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 10px;
+}
+
+.feedback-button {
+  margin-right: 30px;
+  padding: 27px 130px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  background-color: #cc9933;
+  cursor: pointer;
+}
+
+.feedback-form-text {
+  margin-bottom: 40px;
+  color: #999999;
+}
+
+.feedback-form-link {
+  color: #cc9933;
+}
