@@ -1,0 +1,80 @@
+.footer {
+}
+
+.footer-wrapper {
+  display: flex;
+  margin: 0;
+  padding: 40px 30px;
+  color: var(--color-white);
+  background-color: var(--color-dark-gray);
+  background-image: url(../image/sun.png);
+  background-repeat: no-repeat;
+  background-position: 80% bottom ;
+  border-radius: 12px;
+}
+
+.footer-copyright-agreement {
+  line-height: 2;
+}
+
+.footer-copyright-agreement-text {
+  margin-bottom: 35px;
+}
+
+.footer-copyright-agreement-link, .footer-contacts-tel, .footer-contacts-mail {
+  color: var(--color-link);
+}
+
+.footer-contacts {
+  line-height: 1.5;
+}
+
+.footer-contacts-text {
+  margin-bottom: 30px;
+  line-height: 2;
+}
+.footer-contacts-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer-social-icon {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  transition: transform .5s ease;
+}
+
+.footer-social-icon:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.tripadvisor {
+  background-image: url(../image/svg/tripadvisor.svg);
+}
+
+.twitter {
+  background-image: url(../image/svg/twitter.svg);
+}
+
+.facebook {
+  background-image: url(../image/svg/facebook.svg);
+}
+
+.vk {
+  background-image: url(../image/svg/vk.svg);
+}
+
+.google-plus {
+  background-image: url(../image/svg/google-plus-social-logotype.svg);
+}

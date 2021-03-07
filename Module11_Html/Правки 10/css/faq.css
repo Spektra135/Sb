@@ -1,0 +1,53 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  padding: 0 75px;
+}
+
+.lux {
+  flex:  0 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 540px;
+  background-image: url(../image/lux.jpg);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.lux-caption {
+  margin-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: var(--color-white);
+  font-size: 66px;
+  font-weight: 700;
+}
+
+.lux-content {
+  margin-bottom: 35px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.lux-text {
+  margin-bottom: 40px;
+  margin-right: 40px;
+  color: var(--color-light-gray);
+  font-size: 35px;
+}
+
+.lux-link {
+  padding-right: 20px;
+  color: var(--color-link);
+  background-image: url(../image/svg/next.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  transition: color .5s ease, background-image .5s ease;
+}
+
+.lux-link:hover {
+  color: var(--color-link-hover);
+  background-image: url(../image/svg/next-orange.svg);
+}

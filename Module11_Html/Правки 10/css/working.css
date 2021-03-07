@@ -1,0 +1,60 @@
+.working {
+  flex: 0 0 100%;
+  padding: 0 75px;
+}
+
+.services-item-column {
+  display: flex;
+}
+
+.services-item {
+  margin-bottom: 24px;
+  padding-top: 200px;
+  background-color: var(--color-white);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+}
+
+.link-service {
+  display: inline-block;
+  margin-bottom: 15px;/*???*/
+  padding-left: 45px;
+  padding-right: 20px;
+  font-size: 22px;
+  color: var(--color-link);
+  font-weight: 500;
+  background-image: url(../image/svg/next.svg);
+  background-repeat: no-repeat;
+  background-size: auto 18px;
+  background-position: right;
+  transition: color .5s ease, background-image .5s ease;
+}
+.link-service:hover {
+  color: var(--color-link-hover);
+  background-image: url(../image/svg/next-orange.svg);
+}
+
+.exclusive-service {
+  background-image: url(../image/service.jpg);
+}
+
+.lease {
+  background-image: url(../image/lease.jpg);
+}
+
+.pool {
+  background-image: url(../image/pool.jpg);
+}
+
+.cars {
+  background-image: url(../image/car.jpg);
+}
+
+.services-text{
+  margin-bottom: 40px;
+  padding-left: 45px;
+  padding-bottom: 25px;
+  max-width: 450px;
+  line-height: 2;
+}

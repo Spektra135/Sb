@@ -1,0 +1,38 @@
+.promo {
+   display: flex;
+   flex-direction: column;
+   padding: 0 75px;
+ }
+
+.booking-form-input {
+  margin-bottom: 24px;
+  padding-left: 21px;
+  min-height: 70px;
+  border-radius: 10px;
+}
+
+.booking-form-button {
+  margin-right: 30px;
+  padding: 27px 30px;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--color-white);
+  border: none;
+  border-radius: 10px;
+  background-color: var(--color-link);
+  transition: background-color .5s ease, transform .5s ease;
+  cursor: pointer;
+}
+
+.booking-form-button:hover {
+  background-color: var(--color-button-hover);
+  transform: scale(0.98, 0.98);
+}
+
+.booking-form-color-numeral {
+  color: var(--color-link);
+}
+
+.booking-form-text {
+  color: var(--color-light-gray);
+}
